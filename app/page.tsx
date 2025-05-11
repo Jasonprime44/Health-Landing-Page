@@ -128,7 +128,7 @@ export default function Home() {
               >
                 <div className="px-6 py-2 rounded-full border border-[#5D55FF]/50 bg-[#0D0D20] hover:border-[#5D55FF]/80 transition-all duration-300">
                   <span className="text-sm font-medium bg-gradient-to-r from-[#5D55FF] to-[#8FFF00] bg-clip-text text-transparent">
-                    Automate your lead acquisition
+                    Automate your Healthcare
                   </span>
                 </div>
               </motion.div>
@@ -139,13 +139,11 @@ export default function Home() {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.3 }}
               >
-                Cut No‑Shows by 40% & Attract
-                <br />
-                More Patients with Our
+             
+               Get More Patients with Our
                 <br />
                 Automation System
-                <span className="text-gray-400">—</span>
-                <span className="text-[#8FFF00]">Includes $500 Free Gift</span>
+             
               </motion.h1>
 
               <motion.p
