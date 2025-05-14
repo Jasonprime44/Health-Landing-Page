@@ -570,6 +570,9 @@ video {
 .-top-12 {
   top: -3rem;
 }
+.-top-20 {
+  top: -5rem;
+}
 .bottom-0 {
   bottom: 0px;
 }
@@ -647,9 +650,6 @@ video {
 }
 .top-full {
   top: 100%;
-}
-.-top-20 {
-  top: -5rem;
 }
 .-z-0 {
   z-index: 0;
@@ -865,8 +865,8 @@ video {
 .h-\[1px\] {
   height: 1px;
 }
-.h-\[500px\] {
-  height: 500px;
+.h-\[400px\] {
+  height: 400px;
 }
 .h-\[var\(--radix-navigation-menu-viewport-height\)\] {
   height: var(--radix-navigation-menu-viewport-height);
@@ -885,9 +885,6 @@ video {
 }
 .h-svh {
   height: 100svh;
-}
-.h-\[400px\] {
-  height: 400px;
 }
 .max-h-96 {
   max-height: 24rem;
@@ -979,8 +976,8 @@ video {
 .w-\[1px\] {
   width: 1px;
 }
-.w-\[500px\] {
-  width: 500px;
+.w-\[800px\] {
+  width: 800px;
 }
 .w-auto {
   width: auto;
@@ -993,9 +990,6 @@ video {
 }
 .w-px {
   width: 1px;
-}
-.w-\[800px\] {
-  width: 800px;
 }
 .min-w-0 {
   min-width: 0px;
@@ -1916,10 +1910,6 @@ video {
 }
 .blur-\[100px\] {
   --tw-blur: blur(100px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-.blur-\[120px\] {
-  --tw-blur: blur(120px);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 .filter {
@@ -3355,7 +3345,6 @@ body {
 [data-side=right] .\[\[data-side\=right\]_\&\]\:cursor-e-resize {
   cursor: e-resize;
 }
-
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app/layout.tsx","import":"Inter","arguments":[{"subsets":["latin"],"display":"swap","variable":"--font-inter"}],"variableName":"inter"} ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
