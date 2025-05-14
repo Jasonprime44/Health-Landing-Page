@@ -115,9 +115,9 @@ export default function Home() {
             ></div>
 
             {/* Purple glow effects */}
+            <div className="absolute -top-20 left-1/2 transform -translate-x-1/2 w-[800px] h-[400px] bg-[#5D55FF]/20 rounded-full blur-[100px] -z-0"></div>
             <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#5D55FF]/20 rounded-full blur-[100px] -z-0"></div>
             <div className="absolute top-0 right-0 w-96 h-96 bg-[#5D55FF]/20 rounded-full blur-[100px] -z-0"></div>
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-[#5D55FF]/10 rounded-full blur-[120px] -z-0"></div>
 
             <div className="flex flex-col items-center max-w-5xl mx-auto px-4">
               <motion.div
@@ -139,11 +139,12 @@ export default function Home() {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.3 }}
               >
-             
-               Get More Patients with Our
+                Cut No-Shows by 40% & Attract
                 <br />
-                Automation System
-             
+                More Patients with Our
+                <br />
+                Automation System—
+                <span className="text-[#8FFF00]">Includes $500 Free Gift</span>
               </motion.h1>
 
               <motion.p
