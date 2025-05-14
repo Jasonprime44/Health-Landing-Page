@@ -119,6 +119,9 @@ export default function Home() {
             <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#5D55FF]/20 rounded-full blur-[100px] -z-0"></div>
             <div className="absolute top-0 right-0 w-96 h-96 bg-[#5D55FF]/20 rounded-full blur-[100px] -z-0"></div>
 
+            {/* Enhanced glow effect for headline */}
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[120%] h-[300px] bg-[#5D55FF]/15 rounded-[100px] blur-[80px] -z-0"></div>
+
             <div className="flex flex-col items-center max-w-5xl mx-auto px-4">
               <motion.div
                 className="inline-block mb-6 relative z-10"
